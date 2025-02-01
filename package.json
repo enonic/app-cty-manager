@@ -38,7 +38,7 @@
     "sass-loader": "^16.0.4",
     "stream-browserify": "^3.0.0",
     "terser-webpack-plugin": "^5.3.11",
-    "ts-jest": "^27.1.5",
+    "ts-jest": "^29.2.5",
     "ts-loader": "^9.5.1",
     "vue-loader": "15.11.1",
     "vue-style-loader": "^4.1.3",

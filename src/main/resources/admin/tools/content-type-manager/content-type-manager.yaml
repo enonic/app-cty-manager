@@ -1,0 +1,11 @@
+kind: "AdminTool"
+title:
+  text: "Content Type Manager"
+description:
+  text: "Manage content types"
+allow:
+  - "role:system.admin"
+apis:
+  - "admin:extension"
+  - "admin:event"
+  - "admin:status"

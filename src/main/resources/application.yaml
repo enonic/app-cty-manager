@@ -1,0 +1,5 @@
+kind: "Application"
+title: "Content Type manager"
+description: "Simple and intuitive builder of content type schemas"
+vendorName: "Enonic"
+vendorUrl: "https://enonic.com"

@@ -1,4 +1,4 @@
-const portalLib = require('/lib/xp/portal');
+const assetLib = require('/lib/enonic/asset');
 const thymeleafLib = require('/lib/thymeleaf');
 
 exports.get = () => {
@@ -6,13 +6,13 @@ exports.get = () => {
 
   const model = {
     favicon: {
-      svg: portalLib.assetUrl({ path: 'img/favicon.svg' }),
-      png: portalLib.assetUrl({ path: 'img/favicon.png' }),
+      svg: assetLib.assetUrl({ path: 'img/favicon.svg' }),
+      png: assetLib.assetUrl({ path: 'img/favicon.png' }),
     },
-    loadingIcon: portalLib.assetUrl({ path: 'img/spinning-loader.gif' }),
+    loadingIcon: assetLib.assetUrl({ path: 'img/spinning-loader.gif' }),
     scripts: {
-      vendor: portalLib.assetUrl({ path: 'js/vendor.js' }),
-      app: portalLib.assetUrl({ path: 'js/app.js' }),
+      vendor: assetLib.assetUrl({ path: 'js/vendor.js' }),
+      app: assetLib.assetUrl({ path: 'js/app.js' }),
     },
   };
 
